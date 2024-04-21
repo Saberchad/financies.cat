@@ -8,8 +8,9 @@ bot.command('start', async(ctx) => {
 })
 
 bot.command('help', async (ctx) => {
-    await ctx.reply('Бог поможет! ну или некоглаю пиши')
+    await ctx.reply('сам разбирайся')
 })
+
 
 bot.api.setMyCommands([
     {
@@ -30,7 +31,7 @@ bot.api.setMyCommands([
 ])
 
 bot.on('message:text', async (ctx) => {
-    await ctx.reply('бывшей своей пиши, а здесь юзай команды')
+    await ctx.reply('юзай кнопки челик')
 })
 
 bot.on('message:photo', async (ctx) => {
